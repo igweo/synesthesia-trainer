@@ -1,0 +1,9 @@
+[package]
+name = "synesthesia-trainer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+yew = { version = "0.21", features = ["csr"] }
+gloo = "0.10"
+web-sys = { version = "0.3.77", features = ["BaseAudioContext", "PannerNode", "DistanceModelType", "PanningModelType","AudioDestinationNode","AudioParam", "AudioContext", "OscillatorNode", "GainNode", "OscillatorType"] }

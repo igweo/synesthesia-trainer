@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Synesthesia Trainer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+    .trainer {
+      text-align: center;
+      font-family: sans-serif;
+    }
+    .background {
+      width: 100vw;
+      height: 70vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 0.4s ease-in-out;
+    }
+    .letter {
+      font-size: 20vw;
+      color: white;
+      text-shadow: 0 0 20px black;
+    }
+    button {
+      font-size: 2em;
+      padding: 0.5em 1em;
+      margin-top: 2em;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <!-- Trunk will inject the generated JS + WASM bundle here -->
+</body>
+</html>
